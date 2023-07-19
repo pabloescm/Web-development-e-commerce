@@ -19,17 +19,17 @@ This is how the index of the web page looks like.
 ## Laptops Category
 From the navigation panel of the web page we can enter differents categories this is how 
 categories looks like.
-![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/362215719_115224171637914_3594227096880957045_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=kwSGmRAHDz4AX-LMYRa&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfDkHMKLaKSD7XOygk-vc6xAZf58wnj2HmLBR7sJBITquw&oe=64BCAA51)
+![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/362215719_115224171637914_3594227096880957045_n.jpg?_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=kwSGmRAHDz4AX-LMYRa&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfAXNCIjKhjn80hWPXTME4XRvJQ7VlRn7Os_s-BgKCxp9g&oe=64BCAA51)
 
 ## Login
 Web page login you must be registered first to log in.
 
-![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/362202211_115225694971095_8972689789922344025_n.jpg?stp=dst-jpg_p526x296&_nc_cat=107&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=FiR1FFkBM1YAX8zoAdt&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfBbIysKIL92S0AdvBqoN4CdAuJOgErHuOGnec5wmbY7vA&oe=64BC1A2E)
+![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/362202211_115225694971095_8972689789922344025_n.jpg?_nc_cat=107&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=FiR1FFkBM1YAX8zoAdt&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfB_Nw-OmMBGFGB14i4KXwH_9cLOCaI8raSyMsAJ88PEPg&oe=64BC1A2E)
 ## Register
 
 This is how we could register as a client of the ecommerce all forms of the page have 
 thier corresponding validation.
-![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/361595127_115228878304110_815775670231306978_n.jpg?stp=dst-jpg_p526x296&_nc_cat=100&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=T94hVA9TZzAAX8Nc0ly&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfDijM6Xsv9SqEty75Gs3I7sq5sCAUWer7_UtiUcDGltCw&oe=64BD57CD)
+![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/361595127_115228878304110_815775670231306978_n.jpg?_nc_cat=100&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=T94hVA9TZzAAX8Nc0ly&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfCW56tPsuFlXjj7C32g7B4mdiVe2eBr6t7R51NrzNyiQw&oe=64BD57CD)
 ## Product
 
 This is how we can add a producto to our shopping cart and see a more detailed description of it.
