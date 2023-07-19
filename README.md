@@ -50,4 +50,5 @@ This is the page were admins can add, edit and delete products to the store.
 ![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/362199338_115245681635763_157321474572718109_n.jpg?_nc_cat=109&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=gMBrFkkoF6EAX9W5UEO&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfAW9SPkiSy_WJ9WPqUAc3gX5BiBYfbY8Itz1sHZaNtfpg&oe=64BBD427)
 
 This are only a few views of the the page but enough to make an idea of the intention of this web page.
-[Link to youtube video](https://youtu.be/zAIpiSWOraw "WebPage video")
+
+Link to video : [Link to youtube video](https://youtu.be/zAIpiSWOraw "WebPage video")
