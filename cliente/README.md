@@ -8,8 +8,8 @@ A web page made for a ecommerce using the following :
 - postgresql
 note(No framework used for the frontend)
 
-This is the cliente part of the development where we structure the page using html,
-and with the help of css the style of the web page, i use a mobile first approach for the responsive part if the webpage. The proyect have a client side and also have an administrator side were you can manage all your products , clients ,categories etc.
+This is the cliente part of the development where i structure the page using html,
+and with the help of css the style of the web page, i use a mobile first approach for the responsive part of the webpage. The proyect have a client side and also have an administrator side were you can manage all your products , clients ,categories etc.
 next i will show some pictures of the web page so we can have a better idea of the ecommerce page proyect.
 
 ## Web page Index
