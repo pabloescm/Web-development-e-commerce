@@ -6,6 +6,15 @@ A web page made for a ecommerce using the following :
 - javascript
 - nodejs
 - postgresql
+
+To run the complete application you will the three parts:
+
+Cliente (This)
+Api (will soon upload)
+database (will soon upload)
+
+The client connect to the api with the HTTP protocol and the api connect to the data base which have all the necesary information to fulfill the client and the webpage its self with all the necesary information like the image of all the products that link are stored in the database for example.
+
 note(No framework used for the frontend)
 
 This is the cliente part of the development where we structure the page using html,
