@@ -1,0 +1,167 @@
+main {
+    background-image: url(../../images/acceso.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+body {
+    height: 100%;
+}
+
+.contenedor__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*make the form fit main*/
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+
+}
+
+.formulario__acceso {
+    width: 70%;
+    height: 300px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: steelblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #3283da;
+    position: relative;
+    top: 100px;
+
+
+}
+
+.accede {
+    border: 1px solid black;
+    color: white;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 5px 5px 10px #043a74;
+}
+
+.login__label {
+    width: 80%;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: blue;
+    margin: 10px 0px 10px 0px
+}
+
+.input__usuario {
+    width: 80%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    padding-left: 5px;
+
+}
+
+.btn__acceso {
+    width: 50%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    padding-left: 5px;
+    background-color: #3283da;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #062345;
+    margin-top: 20px;
+}
+
+.btn__acceso:hover {
+    transform: translate(5px, 5px);
+    box-shadow: 0px 0px 0px #062345;
+}
+
+
+@media (min-width:768px) {
+
+
+
+    .formulario__acceso {
+        width: 60%;
+    }
+
+
+    .login__label {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .input__usuario {
+        width: 50%;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        padding-left: 5px;
+
+    }
+
+    .btn__acceso {
+        width: 40%;
+        height: 30px;
+
+    }
+
+}
+
+@media (min-width:992px) {
+
+
+    .login__label {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .input__usuario {
+        width: 50%;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 5px;
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        padding-left: 5px;
+
+    }
+
+    .btn__acceso {
+        width: 25%;
+        height: 30px;
+
+    }
+
+}

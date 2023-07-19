@@ -1,0 +1,212 @@
+body {
+    background-color: white ;
+}
+
+.table {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 25px;
+  /*  box-shadow: 0 0 10px red;*/
+
+}
+
+.mi-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 25px;
+   /* border: 3px solid blue;*/
+    border-radius: 10px;
+   
+   
+}
+
+.mi-perfil label {
+    width: 35%;
+    font-family: 'Roboto Slab', sans-serif;
+    color: blue;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mi-perfil input {
+    width: 35%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px;
+}
+
+.titulo__compras {
+    width: 90%;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'roboto Slab', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: auto;
+    margin-top: 25px;
+    background: black;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.titulo__perfil {
+
+    width: auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'roboto Slab', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    background: black;
+    padding: 10px;
+    border: 2px solid black;
+    /* make it responsive*/
+    margin: auto;
+    margin-top: 10px;
+
+
+    
+}
+
+
+.table thead tr:first-child {
+    background-color: black;
+}
+
+.table tr {
+    padding: .45em;
+}
+
+
+.table thead th {
+    color: blue;
+    font-size: .90em;
+    padding: 10px;
+
+}
+
+.table td {
+    font-size: .70em;
+    font-family: 'roboto Slab', sans-serif;
+   /* padding: .7em;*/
+    text-align: center;
+    padding: 10px;
+    width: 25%;
+
+}
+
+.table tbody tr:hover {
+    background-color: rgb(0, 0, 0, .15);
+}
+
+#btn-actualizar {
+    width: 90px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 12px;
+
+}
+
+#btn-cerrarSesion {
+    width: 90px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 12px;
+
+}
+
+#mensaje__sin__compras{
+    text-align: center;
+    padding: 5px;
+}
+
+
+@media (max-width: 655px) {
+
+    .mi-perfil label {
+        width: 70%;
+       
+    }
+
+    .mi-perfil input {
+        width: 70%;
+
+
+    }
+
+    .mi-perfil {
+
+        width: 95%;
+
+    }
+
+    .table {
+        width: 95%;
+        border: 3px solid blue;
+    }
+
+    .titulo__compras {
+        width: 95%;
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    .table thead tr {
+
+        display: none;
+
+
+    }
+
+    .table tr {
+
+        display: block;
+
+
+    }
+
+    .table th,
+    .table td {
+
+        padding: .3em;
+       
+
+    }
+
+    .table td {
+        width: 100%;
+        text-align: right;
+        display: block;
+        font-size: 10px;
+    }
+
+    .table tbody td:before {
+        content: attr(data-title) ": ";
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    #mensaje__sin__compras{
+        text-align: center;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,102 @@
+/*Aqui le quito el div del panel de usuario, register, carritos */
+
+header {
+    height: auto;
+    /*  border: 1px solid black;*/
+    display: flex;
+
+
+}
+
+/* Figure header-logo-container */
+.header-logo-container {
+    min-width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: black;
+
+}
+
+.header-logo-container img {
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+
+.header-logo-container figcaption {
+    padding-bottom: 5px;
+
+}
+
+.header-logo-container figcaption input {
+    max-width: 70%;
+    height: 25px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 14px;
+    /* border: 1px solid blue;*/
+}
+
+/* Figure header-logo-container */
+
+
+/* Elemento i lupa */
+.search-icon {
+    color: white;
+}
+
+/* Elemento i lupa */
+
+
+/* Input  Buscador */
+.search-input {
+    max-width: 100%;
+}
+
+/* Input Buscador */
+
+@media (min-width: 768px) {
+
+    .header-logo-container {
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        background-color: black;
+
+    }
+
+    .header-logo-container figcaption {
+
+        width: 100%;
+
+    }
+
+    .header-logo-container figcaption input {
+        min-width: 80%;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid black;
+        padding: 5px;
+        /*  border: 1px solid blue;*/
+        margin: 70px 0px 60px 20px;
+
+    }
+
+    @media (min-width: 992px) {
+
+
+
+        .header-logo-container figcaption input {
+            min-width: 80%;
+            /*height: 30px;*/
+            border-radius: 15px;
+            border: 1px solid black;
+            padding: 5px;
+            /*    border: 2px solid blue;*/
+            margin: 70px 0px 60px 50px;
+
+        }
+    }
+}

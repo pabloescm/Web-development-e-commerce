@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/productos/header.css">
+    <link rel="stylesheet" href="css/index/navegacion.css">
+    <link rel="stylesheet" href="css/productos/muestras.css">
+    <link rel="stylesheet" href="css/acceso/perfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;800&family=Roboto:wght@100;300;900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <figure class="header-logo-container">
+                <img src="images/logo.png" alt="Logo">
+                <figcaption>
+                    <input type="search" class="search-input" placeholder="search">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </figcaption>
+            </figure>
+        </header>
+
+        <nav class="nav">
+            <i class="fa-solid fa-bars menu-bar"></i>
+            <label for="menu" class="menu-label">Menu</label>
+            <input type="checkbox" id="menu" name="menu" class="input-menu">
+            <ul class="nav-ul" id="nav-tipos">
+                <li><a href="index.html">Inicio</a></li>
+
+            </ul>
+        </nav>
+
+
+        <!--   <h2>Mi Perfil</h2> -->
+
+        <form id="info-perfil" class="mi-perfil">
+
+            <h2 class="titulo__perfil">Mi Perfil</h2>
+            <img src="images/perfil.gif" style="width: 50px; height: 50px;border:blue 1px solid; border-radius: 25px;"
+                alt="Logo-perfil">
+            <label for="correo">Correo</label>
+            <input type="text" name="correo" id="correo">
+            <!--  <label for="contrasena">contrasena</label>
+                <input type="password" name="contrasena" id="contrasena">-->
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido">
+            <label for="direccion">Direccion</label>
+            <input type="text" name="direccion" id="direccion">
+            <label for="telefono">Telefono</label>
+            <input type="text" name="telefono" id="telefono">
+            <div>
+                <button type="submit" id="btn-actualizar">Actualizar</button>
+                <button type="submit" id="btn-cerrarSesion">Cerrar Sesion</button>
+            </div>
+
+
+        </form>
+
+        <section id="historial__compras">
+            <h2 class="titulo__compras">Mis Compras</h2>
+
+
+        </section>
+
+        <span id="mensaje__sin__compras"></span>
+        <!-- </div>-->
+    </main>
+
+
+    <script src="js/usuarios.js"></script>
+</body>
+
+</html>

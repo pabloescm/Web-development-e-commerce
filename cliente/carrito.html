@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/productos/header.css">
+    <link rel="stylesheet" href="css/index/navegacion.css">
+    <link rel="stylesheet" href="css/carrito/tabla.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;800&family=Roboto:wght@100;300;900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <figure class="header-logo-container">
+                <img src="images/logo.png" alt="Logo">
+                <figcaption>
+                    <input type="search" class="search-input" placeholder="search">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </figcaption>
+            </figure>
+
+        </header>
+
+        <nav class="nav">
+            <i class="fa-solid fa-bars menu-bar"></i>
+            <label for="menu" class="menu-label">Menu</label>
+            <input type="checkbox" id="menu" name="menu" class="input-menu">
+            <ul class="nav-ul" id="nav-tipos">
+                <li><a href="index.html">Inicio</a></li>
+
+            </ul>
+        </nav>
+
+
+        <section class="catalogo">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Imagen</th>
+                        <th>Cantidad</th>
+                        <th>accion</th>
+                    </tr>
+                </thead>
+                <tbody id="items-carrito">
+
+                </tbody>
+            </table>
+            <div id="carrito-vacio"></div>
+            <form style="padding: 20px;">
+                <h2 id="total">Total: $50000</h2>
+                <input id="total-input" type="hidden">
+                <select id="metodoPago">
+
+                </select>
+                <input value="Checkout" type="submit" style="background-color: green; padding: 4px; color: white;"
+                    id="checkout">
+            </form>
+
+        </section>
+    </main>
+
+
+    <script src="js/carrito.js"></script>
+</body>
+
+</html>

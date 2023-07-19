@@ -1,0 +1,63 @@
+footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+footer figure{
+    display: none;
+}
+
+footer a,
+h3 {
+    color: white;
+}
+
+footer h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.footer-item {
+    width: 33%;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+#footer-forma-pagos img{
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+@media(min-width: 768px) {
+    footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+footer figure{
+    display: block;
+}
+    footer h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    #footer-forma-pagos img{
+        max-width: 100%;
+        height: 100%;
+        margin-top: 0px;
+    }
+
+    footer a {
+     
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,89 @@
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalogo table {
+    width: 90%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 0 5px rgb(0, 0, 0, .25);
+    margin-top: 25px;
+}
+
+.catalogo table tr {
+    padding: .45em;
+}
+
+
+.catalogo table thead tr {
+    background-color: blue;
+}
+
+.catalogo table thead th {
+    color: white;
+    font-size: 1.15em;
+
+}
+
+.catalogo table td {
+    font-size: 1em;
+    font-family: 'roboto Slab', sans-serif;
+    padding: .7em;
+    text-align: center;
+
+}
+
+.catalogo table tbody tr:hover {
+    background-color: rgb(0, 0, 0, .15);
+}
+
+@media (max-width: 655px) {
+    .catalogo table {
+        width: 95%;
+        border: 3px solid blue;
+
+
+    }
+
+    .catalogo table thead tr {
+
+        display: none;
+
+
+    }
+
+    .catalogo table tr {
+
+        display: block;
+
+
+    }
+
+    .catalogo table th,
+    .catalogo table td {
+
+        padding: .3em;
+
+
+    }
+
+    .catalogo table td {
+        text-align: right;
+        display: block;
+        font-size: 10px;
+    }
+
+    .catalogo table tbody td:before {
+        content: attr(data-title) ": ";
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+
+
+
+
+}

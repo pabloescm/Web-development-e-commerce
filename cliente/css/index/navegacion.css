@@ -1,0 +1,129 @@
+/* Input Check-Box del menu */
+.nav{
+    display: flex;
+    background-color: #3283da;
+    border-top: white 1px solid;
+    box-shadow: 0 0 10px #03186a;
+    justify-content: center;
+  
+}
+.input-menu {
+    display: none;
+}
+
+/* lista desordenada del menu */
+.nav-ul {
+    display: none;
+}
+
+/* Verificar si el input check box esta checked o no esta */
+.input-menu:checked+.nav-ul {
+    display: block;
+}
+
+/* Estilos de la lista desordenada */
+
+.nav-ul {
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background: #3283da;
+    padding: 20px;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    
+    
+}
+
+.nav-ul a {
+    text-decoration: none;
+    font-family: 'roboto slab', serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: black;
+
+}
+
+.nav-ul li {
+    margin: 10px 0;
+}
+
+.nav i {
+    padding: 2px;
+}
+.nav label {
+    padding: 2px;
+}
+@media screen and (min-width: 768px) {
+    .menu-label {
+        display: none;
+    }
+
+    /*Hago que desapareca el primer elemento i despues de la clase .nav*/
+    .nav i:first-child {
+        display: none;
+    }
+
+    .nav-ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: none;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        text-decoration: none;
+        background-color: black;
+    }
+
+    .nav-ul li {
+        margin: 0;
+        border: none;
+        padding: 5px;
+    
+
+
+    }
+
+    .nav-ul li a {
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+        font-family: 'roboto slab', serif;
+        font-weight: 700;
+    }
+
+    .nav-ul li a:hover {
+        color: #132e78;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 992px) {
+    .nav-ul li {
+
+        background-color: black;
+    }
+
+    .nav-ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: none;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        text-decoration: none;
+        background-color: black;
+    }
+}

@@ -1,0 +1,65 @@
+#agregar-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#agregar-producto div {
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#agregar-producto div label {
+    padding-bottom: 10px;
+}
+
+#agregar-producto div input {
+    height: 35px;
+}
+
+
+h1 {
+    text-align: center;
+    background-color: blue;
+}
+
+.nav-agregar-producto a {
+    padding: 10px;
+}
+
+.guardar-producto {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#notificacion-agregar-producto{
+    text-align: center;
+}
+
+#agregar-producto span{
+    color: red;
+    font-size: 9px;
+    font-weight: 500;
+    display: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+

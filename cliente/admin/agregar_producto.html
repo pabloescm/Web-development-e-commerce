@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/admin/productos.css">
+    <link rel="stylesheet" href="../css/admin/agregarProducto.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Agregar Producto</h1>
+    <ul class="nav-agregar-producto">
+        <a href="productos.html">Inicio</a>
+    </ul>
+
+    <form id="agregar-producto" method="POST">
+        <div>
+            <label for="categoria">Categoria :</label>
+            <select id="categoria" name="categoria">
+            </select>
+            <span id="error-categoria"></span>
+        </div>
+        <div>
+
+            <label for="nombre">Nombre :</label>
+            <input type="text" id="nombre" name="nombre">
+            <span id="error-nombre"></span>
+        </div>
+        <div>
+            <label for="precio">Precio :</label>
+            <input type="text" id="precio" name="precio">
+            <span id="error-precio"></span>
+        </div>
+        <div>
+            <label for="descripcion">Descripcion :</label>
+            <input type="text" id="descripcion" name="descripcion">
+            <span id="error-descripcion"></span>
+        </div>
+        <div>
+            <label for="imagen">Imagen :</label>
+            <input type="file" id="foto" name="imagen" accept="image/png, image/jpeg">
+            <span id="error-foto"></span>
+        </div>
+
+        <input type="submit" value="Guardar" class="guardar-producto" id="btn__guardar__producto">
+
+
+    </form>
+    <div id="notificacion-agregar-producto">
+        <span></span>
+    </div>
+    <script src="../js/products.js"></script>
+</body>
+
+</html>

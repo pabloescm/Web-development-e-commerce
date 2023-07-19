@@ -1,0 +1,25 @@
+.contenedor-logo{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-logo figcaption{
+    text-align: center;
+}
+
+.btn-volver-inicio-contenedor{
+    margin-top: 20px;
+}
+
+.btn-volver-inicio{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.imagen-bien{
+    width:50px;
+}
