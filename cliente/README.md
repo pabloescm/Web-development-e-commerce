@@ -33,7 +33,7 @@ thier corresponding validation.
 ## Product
 
 This is how we can add a producto to our shopping cart and see a more detailed description of it.
-![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/361915275_115232701637061_4648926640662175854_n.jpg?stp=dst-jpg_p526x296&_nc_cat=104&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=_R_TcLw7P2oAX97aByS&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfAU2aU8nQ3jh0ClzecrKwVA5GZmRj9iOWyo0lK_gPFCjg&oe=64BCAC77)
+![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/361915275_115232701637061_4648926640662175854_n.jpg?_nc_cat=104&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=_R_TcLw7P2oAX97aByS&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfAuit74Hr_E65bmhYvsfZWHowxqzL5ZwWPvmAE9AQX27A&oe=64BCAC77)
 
 ## Shopping cart
 
