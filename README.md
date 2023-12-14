@@ -23,7 +23,8 @@ next i will show some pictures of the web page so we can have a better idea of t
 
 ## Web page Index
 This is how the index of the web page looks like.
-![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/362204596_115196174974047_7286833726609616021_n.jpg?stp=dst-jpg_p180x540&_nc_cat=108&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=5rsuvJvi8cUAX9qsJZT&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfAPO8iPeWD-KZzsiCoLcZkY7QVIZOWUwB3WvdED0A7Bwg&oe=64BCE633 "index")
+![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/362199338_115245681635763_157321474572718109_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_ohc=gKofT0uMyokAX_rwMci&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfANQrn267QbxFBQ4U3P8wi1yqmwu4OIfn7pkIoAxLxPkw&oe=657F9AE7 "index")
+
 
 ## Laptops Category
 From the navigation panel of the web page we can enter differents categories this is how 
