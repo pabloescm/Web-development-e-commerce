@@ -23,7 +23,8 @@ next i will show some pictures of the web page so we can have a better idea of t
 
 ## Web page Index
 This is how the index of the web page looks like.
-![](https://scontent.fsrz2-1.fna.fbcdn.net/v/t39.30808-6/362204596_115196174974047_7286833726609616021_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_ohc=Hx8HgHHR9rkAX9k03cZ&_nc_ht=scontent.fsrz2-1.fna&oh=00_AfCLUaC_2nd1qmHg-QtwiwHTJGo3uUKmp6GZ6iF8b_GVYg&oe=6580ACF3"index")
+![](https://![index](https://github.com/pabloescm/EcommerceWeb/assets/80562153/0adfe357-0b3e-4bf6-8c73-3f4136fae98b)
+
 
 
 ## Laptops Category
